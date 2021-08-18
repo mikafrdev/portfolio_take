@@ -1,0 +1,355 @@
+/*************************************************/
+/********************* CSS ***********************/
+/*************************************************/
+@font-face {
+    font-family: "Open Sans";
+    src:    url("../fonts/OpenSans-Regular.ttf") format("woff"),
+            url("../fonts/OpenSans-Bold.ttf") format("woff"),
+            url("../fonts/OpenSans-BoldItalic.ttf") format("woff"),
+            url("../fonts/OpenSans-ExtraBold.ttf") format("woff"),
+            url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("woff"),
+            url("../fonts/OpenSans-Italic.ttf") format("woff"),
+            url("../fonts/OpenSans-Light.ttf") format("woff"),
+            url("../fonts/OpenSans-LightItalic.ttf") format("woff"),
+            url("../fonts/OpenSans-SemiBold.ttf") format("woff"),
+            url("../fonts/OpenSans-SemiBoldItalic.ttf") format("woff");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 0;
+    /*font-size: 3.6vw;*/
+    font-size: 3em;
+    font-weight: normal;
+}
+
+h2 {
+    color: #222626;
+    font-size: 35px;
+}
+
+h3 {
+    color: #fff;
+}
+
+h4 {
+    font-size: 13px;
+    color: #67676d;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bg-card-design {
+    background-color: #f5989d;
+}
+
+.bg-card-build {
+    background-color: #615f7d;
+}
+
+.bg-card-how {
+    background-color: #bd8cbf;
+}
+
+.bg-card-perfect {
+    background-color: #82ca9c;
+}
+
+.bg-card-our {
+    background-image: url('../img/bg-card-our.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-card-sign {
+    background-image: url('../img/bg-card-sign.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_iphone {
+    display: none;
+}
+
+/*SECTION DESCRIPTION*/
+
+#section_description {
+    margin-top: 6vw;
+}
+
+#section_description p, .card-body p, .card-text {
+    color: #959595;
+}
+
+#picture h1, #picture p, #section_carousel p {
+    color: #fff;
+}
+
+#header {
+    background-image: url("../img/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vw;
+    /*height: 100%;*/
+}
+
+#logo {
+    margin-top: 4vw;
+}
+
+#picture {
+    position: relative;
+}
+
+#picture h1 {
+    margin-top: 21vw;
+}
+
+#picture p {
+    line-height: 1.6em;
+    font-size: 0.7em;
+}
+
+/*SECTION CAROUSEL*/
+
+#section_carousel {
+    margin-top: 3vw;
+}
+
+#section_carousel .card {
+    height: 278px;
+    border-radius: unset;
+    padding: 2vw 2.6vw 3.1vw 2.6vw;
+}
+
+#section_carousel h3 {
+    font-size: 2.1em;
+    padding-bottom: 1vw;
+}
+
+#section_carousel p {
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+#section_carousel a {
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+
+#section_carousel a::after, #section_morepower a::after {
+    content: "→";
+    font-size: 18px;
+    margin-left: 0.8vw;
+}
+
+#section_carousel .heart {
+    content: "♡";
+    font-size: 40px;
+}
+
+#section_voiture {
+    margin-top: 3vw;
+    background-image: url("../img/photo_voiture.png");
+}
+
+.card {
+    border: 0;
+}
+
+.card-text {
+    line-height: 24px;
+}
+
+#section_alook {
+    margin-top: 5vw;
+}
+
+#section_alook h2 {
+    color: #222626;
+    margin-bottom: 2vw;
+}
+
+#section_alook h4 {
+    color: #67676d;
+}
+
+/*SECTION MOREPOWER*/
+
+#section_morepower {
+    margin: 5vw 0 0 0;
+    background-image: url("../img/photo_voiture.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-height: 874px;
+}
+
+#section_morepower h1, #section_morepower p, #section_reasons h2, #section_reasons h4, #section_reasons p, footer h4 {
+    color: #fff;
+}
+
+#section_morepower .card, #section_reasons .card {
+    background-color: unset;
+}
+
+#section_morepower .card {
+    margin: 30vw 0 0 0;
+}
+
+/*SECTION REASONS*/
+
+#section_reasons {
+    background-color: #82ca9c;
+    padding-bottom: 4vw;
+}
+
+#section_reasons h2 {
+    margin: 5vw 0 2vw 0;
+}
+
+#section_reasons h4 {
+    margin-bottom: 1vw;
+}
+
+#section_reasons p {
+    line-height: 1.8em;
+    font-size: 0.9em;
+}
+
+/*SECTION GO IT SOLO*/
+
+#section_goitsolo {
+    background-color: #f6f7fa;
+    padding: 4vw;
+}
+
+#section_goitsolo h2 {
+    margin: 5vw 0 2vw 0;
+}
+
+#section_goitsolo h3 {
+    margin: 1.4vw 0;
+    color: #2e3b4e;
+}
+
+#section_goitsolo p {
+    line-height: 1.8em;
+    font-size: 0.9em;
+    color: #8297a7;
+}
+
+.legacy, .most_popular {
+    background-color: #e1e1e1;
+    border-radius: 6px;
+    padding: 6px 18px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.most_popular {
+    background-color: #bd8cbf;
+}
+
+#section_goitsolo .cnt_button {
+    margin-bottom: 1vw;
+}
+
+#section_goitsolo button {
+    border: 0;
+    background-color: #82ca9c;
+    border-radius: 3px;
+    margin-top: 1vw;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#section_goitsolo img {
+    margin-right: 0.8vw;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #192431;
+    color: #fff;
+}
+
+footer h4, footer p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+footer p.nospan {
+    color: #57697f;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+footer .input-group input, footer .input-group button {
+    line-height: 2.5;
+    border:0;
+}
+
+footer .input-group button.btn {
+    background-color: #82ca9c;
+    color: #fff;
+    border-radius: .15rem;
+}
+
+footer #cnt_lists li a {
+    color: #f6f7fa;
+}
+
+/*************************************************/
+/************ CSS AJUST FOR res > 768px **********/
+/*************************************************/
+
+@media screen and (min-width: 1400px) {
+    #img_iphone {
+        display: block;
+        position: absolute;
+        top: 5vw;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .container {
+        /*width: 1230px;*/
+    }
+}
+
+/* MEDIUM -m 768px and more */
+@media screen and (min-width: 768px) {
+
+}
